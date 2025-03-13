@@ -1,0 +1,13 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100dvh;
+  justify-content: space-between;
+}
+
+.layout__body {
+  width: 90%;
+  max-width: var(--width-max-body);
+  align-self: center;
+}

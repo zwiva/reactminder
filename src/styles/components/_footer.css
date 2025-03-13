@@ -1,4 +1,25 @@
-.footer {
+footer {
   background-color: #333;
+  color: white;
   padding: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 1em;
+  padding: 1rem;
+  width: 90%;
+  max-width: var(--width-max-body);
+  flex-wrap: wrap;
+}
+
+img {
+  width: 30px;
+  height: auto;
 }

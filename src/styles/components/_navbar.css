@@ -1,6 +1,7 @@
 .navbar {
   background-color: #333;
-  padding: 1rem;
+  display: flex;
+  justify-content: center;
 }
 
 .navbar ul {
@@ -17,4 +18,21 @@
   color: white;
   text-decoration: none;
   font-weight: bold;
+}
+
+.navbar__body {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  width: 90%;
+  max-width: var(--width-max-body);
+  flex-wrap: wrap;
+}
+
+.navbar a:hover {
+  color: #f39c12;
+}
+
+.navbar .active {
+  color: #f39c12;
 }

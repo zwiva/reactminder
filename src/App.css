@@ -1,15 +1,4 @@
-/* Selecciona contenedor principal de react */
-#root { 
-  max-width: 1280px;
-  margin: 0 auto;
-  text-align: center;
-  background-color: blue;
-}
-
 /* Contiene estilos específicos del componente App.jsx. */
 @import url("./styles/base/_reset.css");
+@import url("./styles/base/_layout.css");
 @import url("./styles/global/_global.css");
-@import url("./styles/components/_card.css");
-@import url("./styles/pages/_home.css");
-@import url("./styles/pages/_about.css");
-

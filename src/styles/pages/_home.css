@@ -1,6 +1,6 @@
 .home {
   text-align: center;
-  padding: 20px;
-  background-color: #f8f9fa;
-  color: white;
+  max-width: var(--width-max-body);
+  border: 3px solid #f39c12;
+  padding: 1em;
 }
