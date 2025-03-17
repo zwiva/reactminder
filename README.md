@@ -52,3 +52,8 @@ export default tseslint.config({
   },
 })
 ```
+
+----------
+
+- styles
+- react-router-dom
